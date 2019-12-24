@@ -1,0 +1,143 @@
+body {
+    
+    margin: 0cm;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+main {
+
+
+
+    display: grid;
+    width: 650px;
+    height: 460px;
+    left: 430px;
+    top: 290px;
+
+ background: #F2FCFF;
+    border: 2px solid #C3F1FF;
+    box-sizing: border-box;
+
+
+    margin-left: auto;
+    margin-top: auto;
+    margin-right: auto;
+    border-radius: 20px;
+}
+
+.borde_main:hover {
+    border: 2px solid #5075FF;
+  
+}
+
+.texto-principal {
+    width: 303px;
+    height: 49px;
+    left: 569px;
+    top: 316px;
+    margin: 0 auto;
+    color: #5AD2AE;
+    text-align-last: center;
+}
+
+.texto-principal:hover {
+    text-decoration: underline;
+    text-decoration-color: #5075FF;
+}
+
+.ingreso-datos {
+    background: #FFFFFF;
+    border: 1px solid #C3F1FF;
+    box-sizing: border-box;
+    border-radius: 39.5px;
+    margin: 20px;
+    border-left: 50px;
+}
+
+.ingreso-datos p {
+    margin-left: inherit;
+    color: #5AD2AE;
+}
+
+.ingreso-datos input {
+    margin-left: inherit;
+    color: #5AD2AE;
+    background: #FFFFFF;
+    padding-left: 20px;
+    border-radius: 39.5px;
+    margin: 0px;
+    border-left: 50px;
+    font-size: medium;
+}
+
+.datos {
+    
+    -webkit-hyphenate-character: auto;
+    width: 520px;
+    height: 48px;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+
+input::placeholder {
+    color: #5AD2AE;
+    opacity: 1; 
+
+}
+
+
+
+
+.login {
+    background: #5AD2AE;
+    border: 1px solid #469F85;
+    box-sizing: border-box;
+    border-radius: 39.5px;
+    margin: 20px;
+    text-align: center;
+    text-align-last: center;
+    width: -webkit-fill-available;
+}
+
+.login p{
+    color: #FFFFFF;
+}
+
+.login p:hover {
+    text-decoration: underline;
+    text-decoration-color: #5075FF;
+}
+
+.login:hover {
+    border: 2px solid #5075FF;
+}
+
+#footer-login p:hover {
+    text-decoration: underline;
+    text-decoration-color: #5075FF;
+}
+
+#footer-login {
+    text-align-last: center;
+    color: #AFAFAF;
+    margin-top: -35px;
+}
+
+
+
+.ingreso-datos:hover {
+    border: 2px solid #5C009C;
+}
+
+.ingreso-datos p:hover {
+    text-decoration: underline;
+    text-decoration-color: #5C009C;
+}
+
+::placeholder:hover {
+    text-decoration: underline;
+    text-decoration-color: #5C009C;
+}

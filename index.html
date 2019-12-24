@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>login</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <script src="validacion.js"></script>
+    
+</head>
+
+<body>
+    <main class="borde_main">
+        <header class="texto-principal">
+            <h1> Ingresa a Safary </h1>
+        </header>
+        <Section>  
+
+
+            <div class="ingreso-datos">
+                <label for="uname"></label>
+                <input class="datos" type="text" id="usuario" placeholder="Ingresa tu correo" name="uname" required >
+            </div>
+
+            <div class="ingreso-datos">
+                <label for="psw"></label>
+
+                <input class="datos" type="password" id="pas" placeholder="Ingresa tu contraseña" name="psw" required>
+            </div>
+            <button class="login" onclick="validacionUsuario()">
+                <p>LOGIN</p>
+            </button>
+        </section>
+    <footer id="footer-login">
+        <p>yo ❤️❤️❤️ Safary</p>
+    </footer>
+    </main>
+
+    <script>
+    
+    $(document).ready(function(){
+        $(".login").mouseover(function(){
+            $(".login").addClass("hover");
+        });
+        $(".login").mouseout(function(){
+            $(".login").removeClass("no-hover");
+        });
+    });
+    </script>
+    
+</body>
+</html>
