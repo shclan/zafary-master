@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+  }
+
+  body {
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    position: absolute;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  
+  main {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+  }
+  
+  .caja-login {
+    width: 420px;
+    padding: 40px 40px;
+    background: #F2FCFF;
+    border: 2px solid #C3F1FF;
+    border-radius: 30px;
+  }
+  
+  .caja-login h1 {
+   text-align: center;
+   color: #5AD2AE;
+  }
+  
+  .formulario-login {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row-gap: 10px;
+  }
+  
+  .formulario-login small {
+    text-align: center;
+    right: 0px; 
+    position: relative;
+    font-family: Roboto;
+    color:#AFAFAF;
+  }
+  
+  .msgError {
+    text-align: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color:#FF0000;
+  }
+
+  .formulario-login input[type="text"],input[type="password"]{
+    background: #FFFF;
+    height: 55px;
+    border: 1px solid #C3F1FF;
+    border-radius: 39.5px ;
+    text-align: left;   
+  }
+  
+  .formulario-login input[type="button"]{
+    color: white;
+    background: #5AD2AE;
+    border-radius: 39.5px ;
+    border: 1px solid #469F85;
+    height: 55px;
+  }
+  
+  .formulario-login input[type="button"]:hover {
+    cursor: pointer;
+    background: #469F85;
+  }
+  
+  .formulario-login input::placeholder {
+    color: #5AD2AE;
+    opacity: 1;
+    text-align: center;
+  }
